@@ -15,7 +15,7 @@
       "category": "productivity",
       "source": {
         "source": "url",
-        "url": "git@github.com:edditz/claude-notify-plugin.git",
+        "url": "https://github.com/edditz/claude-notify-plugin.git",
         "sha": "487d899b12cf6f5591c0c933883aa658526a3a78"
       },
       "homepage": "https://github.com/edditz/claude-notify-plugin"
