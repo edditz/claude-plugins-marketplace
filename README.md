@@ -12,7 +12,7 @@ claude plugin add-marketplace git@github.com:edditz/claude-plugins-marketplace.g
 
 ## Available Plugins
 
-### claude-notify
+### claude-notify-plugin
 
 Push notifications for Claude Code events via ntfy.
 
@@ -25,7 +25,7 @@ Push notifications for Claude Code events via ntfy.
 
 **Install:**
 ```bash
-claude plugin install claude-notify@edditz-plugins
+claude plugin install claude-notify-plugin@edditz-plugins
 ```
 
 ## License
