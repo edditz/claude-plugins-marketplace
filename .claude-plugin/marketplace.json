@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "edditz-plugins",
+  "description": "Eddie's personal Claude Code plugin collection",
+  "owner": {
+    "name": "Eddie"
+  },
+  "plugins": [
+    {
+      "name": "claude-notify",
+      "description": "Push notifications for Claude Code events via ntfy - get notified on your phone/watch when Claude needs approval or completes tasks",
+      "author": {
+        "name": "Eddie"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/edditz/claude-notify-plugin.git",
+        "sha": "fb40be4"
+      },
+      "homepage": "https://github.com/edditz/claude-notify-plugin"
+    }
+  ]
+}
