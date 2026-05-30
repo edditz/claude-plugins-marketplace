@@ -16,7 +16,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/edditz/claude-notify-plugin.git",
-        "sha": "a5bd701bc66233bc683ec0844781fe262be84825"
+        "sha": "a44d27bad27d4a39ff0209fc27a60802e1316767"
       },
       "homepage": "https://github.com/edditz/claude-notify-plugin"
     }
