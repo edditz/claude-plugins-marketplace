@@ -4,11 +4,27 @@ A personal collection of Claude Code plugins.
 
 ## Installation
 
-Add this marketplace to Claude Code:
+### 1. Add marketplace
 
 ```bash
-claude plugin add-marketplace git@github.com:edditz/claude-plugins-marketplace.git
+claude plugin marketplace add git@github.com:edditz/claude-plugins-marketplace.git
 ```
+
+### 2. Install plugin
+
+```bash
+claude plugin install claude-notify-plugin@edditz-plugins
+```
+
+### 3. Setup
+
+Run the setup command in Claude Code:
+
+```
+/claude-notify-plugin:setup
+```
+
+This will guide you through configuring ntfy notifications.
 
 ## Available Plugins
 
@@ -23,10 +39,10 @@ Push notifications for Claude Code events via ntfy.
 - 🖥️ Smart terminal detection
 - 🏠 Self-hosted server support
 
-**Install:**
-```bash
-claude plugin install claude-notify-plugin@edditz-plugins
-```
+**Commands:**
+- `/claude-notify-plugin:setup` — Interactive setup wizard
+- `/claude-notify-plugin:config` — Configure notification settings
+- `/claude-notify-plugin:toggle` — Toggle notifications on/off
 
 ## License
 
